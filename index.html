@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditions d'Utilisation - LOREA</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- GSAP et ScrollTrigger CDN pour les animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <!-- Font Awesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Polices élégantes et modernes */
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            overflow-x: hidden;
+            background: linear-gradient(to bottom, #f3f4f6, #e5e7eb);
+        }
+        h1, h2, h3 {
+            font-family: 'Playfair Display', serif;
+        }
+
+        /* Héros avec dégradé et effet subtil */
+        .hero-section {
+            background: linear-gradient(135deg, rgba(0, 102, 204, 0.8), rgba(0, 153, 255, 0.5)), url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2070&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        /* Style pour les sections avec effet de survol */
+        .term-section {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .term-section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Bouton de contact */
+        .contact-btn {
+            background-color: #0066cc;
+            color: white;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px 24px;
+            border-radius: 50px;
+            font-weight: 500;
+        }
+        .contact-btn:hover {
+            background-color: #005bb5;
+        }
+
+        /* Animation pour les éléments décoratifs */
+        .decorative-circle {
+            position: absolute;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.3), transparent);
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Élément décoratif -->
+    <div class="decorative-circle w-80 h-80 opacity-40 top-[-50px] left-[-50px]"></div>
+    <div class="decorative-circle w-64 h-64 opacity-30 bottom-[-100px] right-[-100px]"></div>
+
+    <!-- Section Héros -->
+    <section class="hero-section h-96 flex flex-col justify-center items-center text-center text-white">
+        <h1 class="text-5xl md:text-6xl font-bold mb-4 animate__fadeIn">Conditions d'Utilisation de LOREA</h1>
+        <p class="text-lg md:text-xl mb-8 max-w-2xl animate__fadeIn" style="animation-delay: 0.5s;">
+            Dernière mise à jour : Juillet 2025
+        </p>
+    </section>
+
+    <!-- Section Conditions -->
+    <section class="py-20">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto">
+                <!-- Acceptation des conditions -->
+                <div class="term-section bg-white rounded-lg shadow-lg p-8 mb-8">
+                    <h2 class="text-3xl font-semibold mb-4">1. Acceptation des Conditions</h2>
+                    <p class="text-gray-600 leading-relaxed">
+                        En utilisant l'application LOREA, vous acceptez d’être lié par les présentes conditions d’utilisation. Si vous n’êtes pas d’accord avec ces termes, veuillez ne pas utiliser l’application. Votre utilisation continue constitue une acceptation implicite de ces conditions.
+                    </p>
+                </div>
+
+                <!-- Utilisation autorisée -->
+                <div class="term-section bg-white rounded-lg shadow-lg p-8 mb-8">
+                    <h2 class="text-3xl font-semibold mb-4">2. Utilisation Autorisée</h2>
+                    <p class="text-gray-600 leading-relaxed">
+                        LOREA est conçue pour un usage éducatif et personnel uniquement. Toute utilisation abusive, illégale ou non autorisée, telle que la tentative d'accès non autorisé ou la perturbation des services, est strictement interdite.
+                    </p>
+                </div>
+
+                <!-- Création de compte -->
+                <div class="term-section bg-white rounded-lg shadow-lg p-8 mb-8">
+                    <h2 class="text-3xl font-semibold mb-4">3. Création de Compte</h2>
+                    <p class="text-gray-600 leading-relaxed">
+                        Pour accéder à certaines fonctionnalités de LOREA, vous devez vous connecter via votre compte Google. Vous êtes responsable de la confidentialité et de la sécurité de votre compte, ainsi que de toutes les activités effectuées sous votre identifiant.
+                    </p>
+                </div>
+
+                <!-- Propriété intellectuelle -->
+                <div class="term-section bg-white rounded-lg shadow-lg p-8 mb-8">
+                    <h2 class="text-3xl font-semibold mb-4">4. Propriété Intellectuelle</h2>
+                    <p class="text-gray-600 leading-relaxed">
+                        Tout le contenu de l’application LOREA, y compris les textes, images, vidéos, et codes, est protégé par des droits d’auteur et appartient à leurs créateurs respectifs. Toute reproduction, distribution ou utilisation sans autorisation préalable est interdite.
+                    </p>
+                </div>
+
+                <!-- Responsabilité -->
+                <div class="term-section bg-white rounded-lg shadow-lg p-8 mb-8">
+                    <h2 class="text-3xl font-semibold mb-4">5. Responsabilité</h2>
+                    <p class="text-gray-600 leading-relaxed">
+                        LOREA est fournie "telle quelle", sans garantie d’aucune sorte. Nous ne pouvons être tenus responsables des pertes ou dommages, directs ou indirects, découlant de l’utilisation de l’application ou de l’impossibilité d’y accéder.
+                    </p>
+                </div>
+
+                <!-- Modification des conditions -->
+                <div class="term-section bg-white rounded-lg shadow-lg p-8 mb-8">
+                    <h2 class="text-3xl font-semibold mb-4">6. Modification des Conditions</h2>
+                    <p class="text-gray-600 leading-relaxed">
+                        Nous nous réservons le droit de modifier ces conditions à tout moment. Les utilisateurs seront informés des modifications via l’application ou notre site web. Votre utilisation continue après ces modifications constitue une acceptation des nouvelles conditions.
+                    </p>
+                </div>
+
+                <!-- Contact -->
+                <div class="term-section bg-white rounded-lg shadow-lg p-8">
+                    <h2 class="text-3xl font-semibold mb-4">7. Contact</h2>
+                    <p class="text-gray-600 leading-relaxed mb-6">
+                        Pour toute question concernant ces conditions d’utilisation ou l’application LOREA, veuillez nous contacter à l’adresse suivante :
+                    </p>
+                    <a href="mailto:lorea.app.contact@gmail.com" class="contact-btn">
+                        <i class="fa-solid fa-envelope mr-2"></i> lorea.app.contact@gmail.com
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pied de page -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p class="text-lg">© 2025 LOREA. Tous droits réservés.</p>
+            <div class="mt-4 flex justify-center gap-6">
+                <a href="#" class="hover:text-gray-300"><i class="fa-brands fa-facebook"></i> Facebook</a>
+                <a href="#" class="hover:text-gray-300"><i class="fa-brands fa-instagram"></i> Instagram</a>
+                <a href="#" class="hover:text-gray-300"><i class="fa-brands fa-twitter"></i> Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script GSAP pour les animations -->
+    <script>
+        // Enregistrer ScrollTrigger
+        gsap.registerPlugin(ScrollTrigger);
+
+        // Animation du héros
+        gsap.from(".hero-section h1", { opacity: 0, y: 50, duration: 1, ease: "power3.out" });
+        gsap.from(".hero-section p", { opacity: 0, y: 50, duration: 1, delay: 0.5, ease: "power3.out" });
+
+        // Animation des cercles décoratifs
+        gsap.to(".decorative-circle", {
+            x: () => Math.random() * 80 - 40,
+            y: () => Math.random() * 80 - 40,
+            duration: 5,
+            repeat: -1,
+            yoyo: true,
+            ease: "sine.inOut"
+        });
+
+        // Animation des sections
+        gsap.from(".term-section", {
+            scrollTrigger: {
+                trigger: ".term-section",
+                start: "top 80%",
+            },
+            opacity: 0,
+            y: 50,
+            duration: 1,
+            stagger: 0.2,
+            ease: "power3.out"
+        });
+
+        // Animation du bouton de contact
+        gsap.from(".contact-btn", {
+            scrollTrigger: {
+                trigger: ".contact-btn",
+                start: "top 80%",
+            },
+            opacity: 0,
+            scale: 0.8,
+            duration: 1,
+            ease: "back.out(1.7)"
+        });
+    </script>
+</body>
+</html>
